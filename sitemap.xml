@@ -1371,6 +1371,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://diagnijmegen.github.io/website-rtc/projects/knee_segmentation/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://diagnijmegen.github.io/website-rtc/publications/muen10/</loc>
     <priority>1.0</priority>
   </url>

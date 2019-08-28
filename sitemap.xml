@@ -611,6 +611,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://diagnijmegen.github.io/website-rtc/projects/brain-mri/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://diagnijmegen.github.io/website-rtc/publications/boom12/</loc>
     <priority>1.0</priority>
   </url>

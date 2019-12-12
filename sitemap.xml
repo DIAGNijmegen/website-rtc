@@ -1367,6 +1367,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/pate19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/maie18/</loc>
     <priority>1.0</priority>
   </url>
@@ -1672,10 +1676,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/lens16/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/lens17/</loc>
     <priority>1.0</priority>
   </url>
   <url>

@@ -167,6 +167,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/jaco19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/arma08/</loc>
     <priority>1.0</priority>
   </url>
@@ -587,6 +591,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/maie19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/pomp15a/</loc>
     <priority>1.0</priority>
   </url>
@@ -656,6 +664,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/madu11a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/oude19a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -819,6 +831,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/maho20/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/ginn10/</loc>
     <priority>1.0</priority>
   </url>
@@ -916,6 +932,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/less16/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/jaco19b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1136,6 +1156,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/meij18b/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/altu20/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1443,7 +1467,15 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/silv19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/schr18/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/silv19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1908,6 +1940,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/loog04d/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/pinc19a/</loc>
     <priority>1.0</priority>
   </url>
   <url>

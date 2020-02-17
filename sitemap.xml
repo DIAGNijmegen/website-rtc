@@ -1291,6 +1291,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/http://dx.doi.org/10.1007/s00330-016-4249-y</loc>
     <priority>1.0</priority>
   </url>

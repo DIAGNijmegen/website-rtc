@@ -551,10 +551,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/http://dx.doi.org/10.1117/2.1201609.006617</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -1551,10 +1547,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/https://arxiv.org/abs/1806.02051</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/https://arxiv.org/abs/1910.07373</loc>
     <priority>1.0</priority>
   </url>
@@ -1740,10 +1732,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/projects/muscle-us/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/https://medium.com/@bramvanginneken/nelson-versus-nlst-what-do-we-know-now-be64bf8ffe5d</loc>
     <priority>1.0</priority>
   </url>
   <url>

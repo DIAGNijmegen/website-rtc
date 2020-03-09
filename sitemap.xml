@@ -847,6 +847,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/https://arxiv.org/abs/1903.03349</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -2155,7 +2159,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/https://ieeexplore.ieee.org/document/8686082</loc>
+    <loc>https://rtc.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>

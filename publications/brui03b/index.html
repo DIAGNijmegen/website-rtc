@@ -203,14 +203,14 @@
      	<p>MI (2003)</p>
 
     <p>
-      <a href=https://doi.org/10.1117/12.467188>DOI</a>
+      <a href=https://doi.org/10.1117/12.481367>DOI</a>
       
     </p>
 
 
 
     <h2>Abstract</h2>
-    <p>An automated method for the segmentation of thrombus in abdominal aortic aneurysms from CTA data is presented. The method is based on Active Shape Model (ASM) fitting in sequential slices, using the contour obtained in one slice as the initialisation in the adjacent slice. The optimal fit is defined by maximum correlation of grey value profiles around the contour in successive slices, in contrast to the original ASM scheme as proposed by Cootes and Taylor, where the correlation with profiles from training data is maximised. An extension to the proposed approach prevents the inclusion of low-intensity tissue and allows the model to refine to nearby edges. The applied shape models contain either one or two image slices, the latter explicitly restricting the shape change from slice to slice. To evaluate the proposed methods a leave-one-out experiment was performed, using six datasets containing 274 slices to segment. Both adapted ASM schemes yield significantly better results than the original scheme (p&lt;0.0001). The extended slice correlation fit of a one-slice model showed best overall performance. Using one manually delineated image slice as a reference, on average a number of 29 slices could be automatically segmented with an accuracy within the bounds of manual inter-observer variability.</p>
+    <p>Segmentation of thrombus in abdominal aortic aneurysms is complicated by regions of low boundary contrast and by the presence of many neighboring structures in close proximity to the aneurysm wall. This paper presents an automated method that is similar to the well known Active Shape Models (ASM), which combine a three-dimensional shape model with a one-dimensional boundary appearance model. Our contribution is twofold: First, we show how the generalizability of a shape model of curvilinear objects can be improved by modeling the objects axis deformation independent of its cross-sectional deformation. Second, a non-parametric appearance modeling scheme that effectively deals with a highly varying background is presented. In contrast with the conventional ASM approach, the new appearance model trains on both true and false examples of boundary profiles. The probability that a given image profile belongs to the boundary is obtained using k nearest neighbor (kNN) probability density estimation. The performance of this scheme is compared to that of original ASMs, which minimize the Mahalanobis distance to the average true profile in the training set. A set of leave-one-out experiments is performed on 23 datasets. Modeling the axis and cross-section separately reduces the shape reconstruction error in all cases. The average reconstruction error was reduced from 2.2 to 1.6 mm. Segmentation using the kNN appearance model significantly outperforms the original ASM scheme; average volume errors are 5.9% and 46% respectively.</p>
 
 
     </div>

@@ -91,6 +91,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/leem15/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/isgu04a/</loc>
     <priority>1.0</priority>
   </url>
@@ -736,6 +740,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/madu11a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/leem17/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1699,11 +1707,23 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/leem18a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/leem19b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/members/mike-overkamp/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/chle19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/members/miriam-groeneveld/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1871,6 +1891,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/members/paul-konstantin-gerke/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/madu13b/</loc>
     <priority>1.0</priority>
   </url>
@@ -1936,6 +1960,14 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2051,6 +2083,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/members/rita-bylsma/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/phil14a/</loc>
     <priority>1.0</priority>
   </url>
@@ -2140,6 +2176,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/less19/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/members/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>

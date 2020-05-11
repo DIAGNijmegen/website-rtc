@@ -207,10 +207,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/software/asap/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/niem03a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1387,6 +1383,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/members/harm-van-zeeland/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/mend06/</loc>
     <priority>1.0</priority>
   </url>
@@ -1847,6 +1847,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/gonz19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/kock16a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1891,6 +1895,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/lief19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/murp08c/</loc>
     <priority>1.0</priority>
   </url>
@@ -1920,6 +1928,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/</loc>
     <priority>1.0</priority>
   </url>
   <url>

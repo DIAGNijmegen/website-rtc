@@ -91,10 +91,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/leem15/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/isgu04a/</loc>
     <priority>1.0</priority>
   </url>
@@ -743,10 +739,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/leem17/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/oude19a/</loc>
     <priority>1.0</priority>
   </url>
@@ -760,10 +752,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/davi18/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/software/cirrus/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1387,15 +1375,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/members/haimasree-bhattacharya/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/call19/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/members/harm-van-zeeland/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1715,23 +1695,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/leem18a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/leem19b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/members/mike-overkamp/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/chle19a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/members/miriam-groeneveld/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1875,14 +1843,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/gonz19a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/software/ophthalmology_workstation/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/kock16a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1900,10 +1860,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/pomp15/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/members/paul-konstantin-gerke/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1928,10 +1884,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/tamm18/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/lief19a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1967,19 +1919,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2095,10 +2035,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/members/rita-bylsma/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/phil14a/</loc>
     <priority>1.0</priority>
   </url>
@@ -2188,10 +2124,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/less19/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/members/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>

@@ -167,6 +167,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/projects/ai-for-health/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/char16a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1040,6 +1044,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/moha11/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/customers/</loc>
     <priority>1.0</priority>
   </url>
   <url>

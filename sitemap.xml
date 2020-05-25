@@ -787,6 +787,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/prok20/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/colofon/</loc>
     <priority>1.0</priority>
   </url>
@@ -1031,6 +1035,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/murp20a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/mets13a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1239,11 +1247,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/gonz19/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/gonz20a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/abra08a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/habi20/</loc>
     <priority>1.0</priority>
   </url>
   <url>

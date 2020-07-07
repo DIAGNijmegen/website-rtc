@@ -241,28 +241,58 @@
 
 
     <h2>Abstract</h2>
-    <p>The typical treatment consists of monthly intravitreal anti vascular endothelial growth factor (anti-VEGF) injections.</p>
-<p>However, the efficacy of this treatment varies strongly.</p>
-<p>Recent studies have indicated that the presence and number of hyperreflective foci can possibly be considered a prognostic biomarker for treatment response in DME.</p>
-<p>As the detection of foci is difficult and time-consuming manual foci quantification seems infeasible.</p>
-<p>We therefore developed a fully automated system capable of detecting and quantifying foci in optical coherence tomography (OCT) images.</p>
-<p>Methods:</p>
-<p>119 fovea centered B-scans obtained from 49 patients with DME were selected from a clinical database.</p>
-<p>The data was divided in a training set of 96 B-scans from 40 patients, and a test set containing 23 B-scans from 9 patients.</p>
-<p>A convolutional neural network (CNN) was developed to predict if an image pixel belongs to a hyperreflective focus by considering a small neighborhood around the pixel of interest.</p>
-<p>The CNN consists of 7 convolutional layers and 2 max pooling layers.</p>
-<p>After providing the system with enough training samples, the network automatically detects pixels with a high probability of being part of a hyperreflective focus.</p>
-<p>Connected detections are considered as a single detection.</p>
-<p>The obtained results were compared to manual annotations made by two experienced human graders in consensus for the central 3 mm surrounding the fovea.</p>
-<p>Hyperreflective foci were only annotated in the layers ranging from the inner plexiform layer (IPL) to the outer nuclear layer (ONL) as manual detection is challenging in the other layers.</p>
-<p>When a detection is overlapping with an annotated focus it is considered a true positive, otherwise it is counted as a false positive.</p>
-<p>Results:</p>
-<p>In the independent test set a sensitivity of 0.83 was obtained.</p>
-<p>At this level of sensitivity, an average of 8.3 false positives per B-scan were detected.</p>
-<p>False positives were mainly caused by detections outside the selected range (ILP to ONL) and misdetections by the graders.</p>
-<p>Conclusions:</p>
-<p>An image analysis algorithm for the automatic detection and quantification of hyperreflective foci in OCT B-scans was developed.</p>
-<p>The experiments show promising results to obtain quantitative foci based biomarkers that can be used for the prediction of treatment response in DME.</p>
+    <div class="highlight"><pre><span></span><code>   <span class="n">The</span> <span class="n">typical</span> <span class="n">treatment</span> <span class="n">consists</span> <span class="k">of</span> <span class="n">monthly</span> <span class="n">intravitreal</span> <span class="n">anti</span> <span class="n">vascular</span> <span class="n">endothelial</span> <span class="n">growth</span> <span class="n">factor</span> <span class="p">(</span><span class="n">anti</span><span class="o">-</span><span class="n">VEGF</span><span class="p">)</span> <span class="n">injections</span><span class="p">.</span>
+
+   <span class="n">However</span><span class="p">,</span> <span class="n">the</span> <span class="n">efficacy</span> <span class="k">of</span> <span class="n">this</span> <span class="n">treatment</span> <span class="n">varies</span> <span class="n">strongly</span><span class="p">.</span>
+
+   <span class="n">Recent</span> <span class="n">studies</span> <span class="n">have</span> <span class="n">indicated</span> <span class="n">that</span> <span class="n">the</span> <span class="n">presence</span> <span class="k">and</span> <span class="nb">number</span> <span class="k">of</span> <span class="n">hyperreflective</span> <span class="n">foci</span> <span class="n">can</span> <span class="n">possibly</span> <span class="n">be</span> <span class="n">considered</span> <span class="n">a</span> <span class="n">prognostic</span> <span class="n">biomarker</span> <span class="k">for</span> <span class="n">treatment</span> <span class="n">response</span> <span class="k">in</span> <span class="n">DME</span><span class="p">.</span>
+
+   <span class="k">As</span> <span class="n">the</span> <span class="n">detection</span> <span class="k">of</span> <span class="n">foci</span> <span class="k">is</span> <span class="n">difficult</span> <span class="k">and</span> <span class="k">time</span><span class="o">-</span><span class="n">consuming</span> <span class="n">manual</span> <span class="n">foci</span> <span class="n">quantification</span> <span class="n">seems</span> <span class="n">infeasible</span><span class="p">.</span>
+
+   <span class="n">We</span> <span class="n">therefore</span> <span class="n">developed</span> <span class="n">a</span> <span class="n">fully</span> <span class="n">automated</span> <span class="k">system</span> <span class="n">capable</span> <span class="k">of</span> <span class="n">detecting</span> <span class="k">and</span> <span class="n">quantifying</span> <span class="n">foci</span> <span class="k">in</span> <span class="n">optical</span> <span class="n">coherence</span> <span class="n">tomography</span> <span class="p">(</span><span class="n">OCT</span><span class="p">)</span> <span class="n">images</span><span class="p">.</span>
+
+   <span class="n">Methods</span><span class="p">:</span>
+
+    <span class="mi">119</span> <span class="n">fovea</span> <span class="n">centered</span> <span class="n">B</span><span class="o">-</span><span class="n">scans</span> <span class="n">obtained</span> <span class="k">from</span> <span class="mi">49</span> <span class="n">patients</span> <span class="k">with</span> <span class="n">DME</span> <span class="n">were</span> <span class="n">selected</span> <span class="k">from</span> <span class="n">a</span> <span class="n">clinical</span> <span class="k">database</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="k">data</span> <span class="n">was</span> <span class="n">divided</span> <span class="k">in</span> <span class="n">a</span> <span class="n">training</span> <span class="k">set</span> <span class="k">of</span> <span class="mi">96</span> <span class="n">B</span><span class="o">-</span><span class="n">scans</span> <span class="k">from</span> <span class="mi">40</span> <span class="n">patients</span><span class="p">,</span> <span class="k">and</span> <span class="n">a</span> <span class="n">test</span> <span class="k">set</span> <span class="n">containing</span> <span class="mi">23</span> <span class="n">B</span><span class="o">-</span><span class="n">scans</span> <span class="k">from</span> <span class="mi">9</span> <span class="n">patients</span><span class="p">.</span>
+
+   <span class="n">A</span> <span class="n">convolutional</span> <span class="n">neural</span> <span class="n">network</span> <span class="p">(</span><span class="n">CNN</span><span class="p">)</span> <span class="n">was</span> <span class="n">developed</span> <span class="k">to</span> <span class="n">predict</span> <span class="k">if</span> <span class="n">an</span> <span class="n">image</span> <span class="n">pixel</span> <span class="n">belongs</span> <span class="k">to</span> <span class="n">a</span> <span class="n">hyperreflective</span> <span class="n">focus</span> <span class="k">by</span> <span class="n">considering</span> <span class="n">a</span> <span class="n">small</span> <span class="n">neighborhood</span> <span class="n">around</span> <span class="n">the</span> <span class="n">pixel</span> <span class="k">of</span> <span class="n">interest</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="n">CNN</span> <span class="n">consists</span> <span class="k">of</span> <span class="mi">7</span> <span class="n">convolutional</span> <span class="n">layers</span> <span class="k">and</span> <span class="mi">2</span> <span class="k">max</span> <span class="n">pooling</span> <span class="n">layers</span><span class="p">.</span>
+
+   <span class="k">After</span> <span class="n">providing</span> <span class="n">the</span> <span class="k">system</span> <span class="k">with</span> <span class="n">enough</span> <span class="n">training</span> <span class="n">samples</span><span class="p">,</span> <span class="n">the</span> <span class="n">network</span> <span class="n">automatically</span> <span class="n">detects</span> <span class="n">pixels</span> <span class="k">with</span> <span class="n">a</span> <span class="n">high</span> <span class="n">probability</span> <span class="k">of</span> <span class="n">being</span> <span class="n">part</span> <span class="k">of</span> <span class="n">a</span> <span class="n">hyperreflective</span> <span class="n">focus</span><span class="p">.</span>
+
+   <span class="n">Connected</span> <span class="n">detections</span> <span class="k">are</span> <span class="n">considered</span> <span class="k">as</span> <span class="n">a</span> <span class="n">single</span> <span class="n">detection</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="n">obtained</span> <span class="n">results</span> <span class="n">were</span> <span class="n">compared</span> <span class="k">to</span> <span class="n">manual</span> <span class="n">annotations</span> <span class="n">made</span> <span class="k">by</span> <span class="n">two</span> <span class="n">experienced</span> <span class="n">human</span> <span class="n">graders</span> <span class="k">in</span> <span class="n">consensus</span> <span class="k">for</span> <span class="n">the</span> <span class="n">central</span> <span class="mi">3</span> <span class="n">mm</span> <span class="n">surrounding</span> <span class="n">the</span> <span class="n">fovea</span><span class="p">.</span>
+
+   <span class="n">Hyperreflective</span> <span class="n">foci</span> <span class="n">were</span> <span class="k">only</span> <span class="n">annotated</span> <span class="k">in</span> <span class="n">the</span> <span class="n">layers</span> <span class="n">ranging</span> <span class="k">from</span> <span class="n">the</span> <span class="k">inner</span> <span class="n">plexiform</span> <span class="n">layer</span> <span class="p">(</span><span class="n">IPL</span><span class="p">)</span> <span class="k">to</span> <span class="n">the</span> <span class="k">outer</span> <span class="n">nuclear</span> <span class="n">layer</span> <span class="p">(</span><span class="n">ONL</span><span class="p">)</span> <span class="k">as</span> <span class="n">manual</span> <span class="n">detection</span> <span class="k">is</span> <span class="n">challenging</span> <span class="k">in</span> <span class="n">the</span> <span class="n">other</span> <span class="n">layers</span><span class="p">.</span>
+
+   <span class="k">When</span> <span class="n">a</span> <span class="n">detection</span> <span class="k">is</span> <span class="n">overlapping</span> <span class="k">with</span> <span class="n">an</span> <span class="n">annotated</span> <span class="n">focus</span> <span class="n">it</span> <span class="k">is</span> <span class="n">considered</span> <span class="n">a</span> <span class="k">true</span> <span class="n">positive</span><span class="p">,</span> <span class="n">otherwise</span> <span class="n">it</span> <span class="k">is</span> <span class="n">counted</span> <span class="k">as</span> <span class="n">a</span> <span class="k">false</span> <span class="n">positive</span><span class="p">.</span>
+
+
+
+   <span class="n">Results</span><span class="p">:</span>
+
+
+
+   <span class="k">In</span> <span class="n">the</span> <span class="n">independent</span> <span class="n">test</span> <span class="k">set</span> <span class="n">a</span> <span class="n">sensitivity</span> <span class="k">of</span> <span class="mi">0</span><span class="p">.</span><span class="mi">83</span> <span class="n">was</span> <span class="n">obtained</span><span class="p">.</span>
+
+   <span class="k">At</span> <span class="n">this</span> <span class="k">level</span> <span class="k">of</span> <span class="n">sensitivity</span><span class="p">,</span> <span class="n">an</span> <span class="n">average</span> <span class="k">of</span> <span class="mi">8</span><span class="p">.</span><span class="mi">3</span> <span class="k">false</span> <span class="n">positives</span> <span class="n">per</span> <span class="n">B</span><span class="o">-</span><span class="n">scan</span> <span class="n">were</span> <span class="n">detected</span><span class="p">.</span>
+
+   <span class="k">False</span> <span class="n">positives</span> <span class="n">were</span> <span class="n">mainly</span> <span class="n">caused</span> <span class="k">by</span> <span class="n">detections</span> <span class="n">outside</span> <span class="n">the</span> <span class="n">selected</span> <span class="n">range</span> <span class="p">(</span><span class="n">ILP</span> <span class="k">to</span> <span class="n">ONL</span><span class="p">)</span> <span class="k">and</span> <span class="n">misdetections</span> <span class="k">by</span> <span class="n">the</span> <span class="n">graders</span><span class="p">.</span>
+
+
+
+   <span class="n">Conclusions</span><span class="p">:</span>
+
+
+
+   <span class="n">An</span> <span class="n">image</span> <span class="n">analysis</span> <span class="n">algorithm</span> <span class="k">for</span> <span class="n">the</span> <span class="n">automatic</span> <span class="n">detection</span> <span class="k">and</span> <span class="n">quantification</span> <span class="k">of</span> <span class="n">hyperreflective</span> <span class="n">foci</span> <span class="k">in</span> <span class="n">OCT</span> <span class="n">B</span><span class="o">-</span><span class="n">scans</span> <span class="n">was</span> <span class="n">developed</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="n">experiments</span> <span class="k">show</span> <span class="n">promising</span> <span class="n">results</span> <span class="k">to</span> <span class="n">obtain</span> <span class="n">quantitative</span> <span class="n">foci</span> <span class="n">based</span> <span class="n">biomarkers</span> <span class="n">that</span> <span class="n">can</span> <span class="n">be</span> <span class="n">used</span> <span class="k">for</span> <span class="n">the</span> <span class="n">prediction</span> <span class="k">of</span> <span class="n">treatment</span> <span class="n">response</span> <span class="k">in</span> <span class="n">DME</span><span class="p">.</span>
+</code></pre></div>
 
 
     </div>

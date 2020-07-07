@@ -242,31 +242,56 @@
 
     <h2>Abstract</h2>
     <p>Worldwide, 99% of all maternal deaths occur in developing countries. Ultrasound can be used</p>
-<p>to detect maternal risk factors, but this technique is rarely used in developing countries</p>
-<p>because it is too expensive, and it requires a trained sonographer to acquire and interpret the</p>
-<p>ultrasound images. In this work we use a low-cost ultrasound device which was combined</p>
-<p>with the obstetric sweep protocol (OSP) and deep learning algorithms to automatically detect</p>
-<p>maternal risk factors. The OSP can be taught to any health care worker without prior</p>
-<p>knowledge of ultrasound within one day, so there is no need for a trained sonographer.</p>
-<p>The OSP was acquired from 318 pregnant women using the low-cost MicrUs (Telemed</p>
-<p>Ultrasound Medical Systems, Milan, Italy) in Ethiopia. Two deep learning networks and two</p>
-<p>random forest classifiers were trained to automatically detect twin pregnancies, estimate</p>
-<p>gestational age (GA) and determine fetal presentation. The first deep learning network</p>
-<p>performs a frame classification, which was used to automatically separate the six sweeps of</p>
-<p>the OSP and automatically detect the fetal head and torso. The second deep learning network</p>
-<p>was trained to measure the fetal head circumference (HC) using all frames in which the first</p>
-<p>deep learning system detected the fetal head. The HC was used to determine the GA. Two</p>
-<p>random forest classifiers were trained to detect twin pregnancies and determine fetal</p>
-<p>presentation using the frame classification of the first deep learning network.</p>
-<p>The developed algorithm can automatically estimate the GA with an interquartile range of</p>
-<p>15.2 days, correctly detected 61% of all twins with a specificity of 99%, and correctly detect</p>
-<p>all 31 breech presentations and 215 of the 216 cephalic presentations. The developed</p>
-<p>algorithm can be computed in less than two seconds, making real-time application feasible.</p>
-<p>The presented system is able to determine three maternal risk factors using the OSP. The OSP</p>
-<p>can be acquired without the need of a trained sonographer, which makes widespread obstetric</p>
-<p>ultrasound affordable and fast to implement in resource-limited settings. This makes is</p>
-<p>possible to refer pregnant women in time to a hospital to receive treatment when risk factors</p>
-<p>are detected.</p>
+<div class="highlight"><pre><span></span><code>   <span class="k">to</span> <span class="n">detect</span> <span class="n">maternal</span> <span class="n">risk</span> <span class="n">factors</span><span class="p">,</span> <span class="n">but</span> <span class="n">this</span> <span class="n">technique</span> <span class="k">is</span> <span class="n">rarely</span> <span class="n">used</span> <span class="k">in</span> <span class="n">developing</span> <span class="n">countries</span>
+
+   <span class="n">because</span> <span class="n">it</span> <span class="k">is</span> <span class="n">too</span> <span class="n">expensive</span><span class="p">,</span> <span class="k">and</span> <span class="n">it</span> <span class="n">requires</span> <span class="n">a</span> <span class="n">trained</span> <span class="n">sonographer</span> <span class="k">to</span> <span class="n">acquire</span> <span class="k">and</span> <span class="n">interpret</span> <span class="n">the</span>
+
+   <span class="n">ultrasound</span> <span class="n">images</span><span class="p">.</span> <span class="k">In</span> <span class="n">this</span> <span class="k">work</span> <span class="n">we</span> <span class="n">use</span> <span class="n">a</span> <span class="n">low</span><span class="o">-</span><span class="n">cost</span> <span class="n">ultrasound</span> <span class="n">device</span> <span class="n">which</span> <span class="n">was</span> <span class="n">combined</span>
+
+   <span class="k">with</span> <span class="n">the</span> <span class="n">obstetric</span> <span class="n">sweep</span> <span class="n">protocol</span> <span class="p">(</span><span class="n">OSP</span><span class="p">)</span> <span class="k">and</span> <span class="n">deep</span> <span class="n">learning</span> <span class="n">algorithms</span> <span class="k">to</span> <span class="n">automatically</span> <span class="n">detect</span>
+
+   <span class="n">maternal</span> <span class="n">risk</span> <span class="n">factors</span><span class="p">.</span> <span class="n">The</span> <span class="n">OSP</span> <span class="n">can</span> <span class="n">be</span> <span class="n">taught</span> <span class="k">to</span> <span class="k">any</span> <span class="n">health</span> <span class="n">care</span> <span class="n">worker</span> <span class="k">without</span> <span class="k">prior</span>
+
+   <span class="n">knowledge</span> <span class="k">of</span> <span class="n">ultrasound</span> <span class="n">within</span> <span class="n">one</span> <span class="k">day</span><span class="p">,</span> <span class="n">so</span> <span class="n">there</span> <span class="k">is</span> <span class="k">no</span> <span class="n">need</span> <span class="k">for</span> <span class="n">a</span> <span class="n">trained</span> <span class="n">sonographer</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="n">OSP</span> <span class="n">was</span> <span class="n">acquired</span> <span class="k">from</span> <span class="mi">318</span> <span class="n">pregnant</span> <span class="n">women</span> <span class="k">using</span> <span class="n">the</span> <span class="n">low</span><span class="o">-</span><span class="n">cost</span> <span class="n">MicrUs</span> <span class="p">(</span><span class="n">Telemed</span>
+
+   <span class="n">Ultrasound</span> <span class="n">Medical</span> <span class="n">Systems</span><span class="p">,</span> <span class="n">Milan</span><span class="p">,</span> <span class="n">Italy</span><span class="p">)</span> <span class="k">in</span> <span class="n">Ethiopia</span><span class="p">.</span> <span class="n">Two</span> <span class="n">deep</span> <span class="n">learning</span> <span class="n">networks</span> <span class="k">and</span> <span class="n">two</span>
+
+   <span class="n">random</span> <span class="n">forest</span> <span class="n">classifiers</span> <span class="n">were</span> <span class="n">trained</span> <span class="k">to</span> <span class="n">automatically</span> <span class="n">detect</span> <span class="n">twin</span> <span class="n">pregnancies</span><span class="p">,</span> <span class="n">estimate</span>
+
+   <span class="n">gestational</span> <span class="n">age</span> <span class="p">(</span><span class="n">GA</span><span class="p">)</span> <span class="k">and</span> <span class="n">determine</span> <span class="n">fetal</span> <span class="n">presentation</span><span class="p">.</span> <span class="n">The</span> <span class="k">first</span> <span class="n">deep</span> <span class="n">learning</span> <span class="n">network</span>
+
+   <span class="n">performs</span> <span class="n">a</span> <span class="n">frame</span> <span class="n">classification</span><span class="p">,</span> <span class="n">which</span> <span class="n">was</span> <span class="n">used</span> <span class="k">to</span> <span class="n">automatically</span> <span class="n">separate</span> <span class="n">the</span> <span class="n">six</span> <span class="n">sweeps</span> <span class="k">of</span>
+
+   <span class="n">the</span> <span class="n">OSP</span> <span class="k">and</span> <span class="n">automatically</span> <span class="n">detect</span> <span class="n">the</span> <span class="n">fetal</span> <span class="n">head</span> <span class="k">and</span> <span class="n">torso</span><span class="p">.</span> <span class="n">The</span> <span class="k">second</span> <span class="n">deep</span> <span class="n">learning</span> <span class="n">network</span>
+
+   <span class="n">was</span> <span class="n">trained</span> <span class="k">to</span> <span class="n">measure</span> <span class="n">the</span> <span class="n">fetal</span> <span class="n">head</span> <span class="n">circumference</span> <span class="p">(</span><span class="n">HC</span><span class="p">)</span> <span class="k">using</span> <span class="k">all</span> <span class="n">frames</span> <span class="k">in</span> <span class="n">which</span> <span class="n">the</span> <span class="k">first</span>
+
+   <span class="n">deep</span> <span class="n">learning</span> <span class="k">system</span> <span class="n">detected</span> <span class="n">the</span> <span class="n">fetal</span> <span class="n">head</span><span class="p">.</span> <span class="n">The</span> <span class="n">HC</span> <span class="n">was</span> <span class="n">used</span> <span class="k">to</span> <span class="n">determine</span> <span class="n">the</span> <span class="n">GA</span><span class="p">.</span> <span class="n">Two</span>
+
+   <span class="n">random</span> <span class="n">forest</span> <span class="n">classifiers</span> <span class="n">were</span> <span class="n">trained</span> <span class="k">to</span> <span class="n">detect</span> <span class="n">twin</span> <span class="n">pregnancies</span> <span class="k">and</span> <span class="n">determine</span> <span class="n">fetal</span>
+
+   <span class="n">presentation</span> <span class="k">using</span> <span class="n">the</span> <span class="n">frame</span> <span class="n">classification</span> <span class="k">of</span> <span class="n">the</span> <span class="k">first</span> <span class="n">deep</span> <span class="n">learning</span> <span class="n">network</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="n">developed</span> <span class="n">algorithm</span> <span class="n">can</span> <span class="n">automatically</span> <span class="n">estimate</span> <span class="n">the</span> <span class="n">GA</span> <span class="k">with</span> <span class="n">an</span> <span class="n">interquartile</span> <span class="n">range</span> <span class="k">of</span>
+
+   <span class="mi">15</span><span class="p">.</span><span class="mi">2</span> <span class="n">days</span><span class="p">,</span> <span class="n">correctly</span> <span class="n">detected</span> <span class="mi">61</span><span class="o">%</span> <span class="k">of</span> <span class="k">all</span> <span class="n">twins</span> <span class="k">with</span> <span class="n">a</span> <span class="n">specificity</span> <span class="k">of</span> <span class="mi">99</span><span class="o">%</span><span class="p">,</span> <span class="k">and</span> <span class="n">correctly</span> <span class="n">detect</span>
+
+   <span class="k">all</span> <span class="mi">31</span> <span class="n">breech</span> <span class="n">presentations</span> <span class="k">and</span> <span class="mi">215</span> <span class="k">of</span> <span class="n">the</span> <span class="mi">216</span> <span class="n">cephalic</span> <span class="n">presentations</span><span class="p">.</span> <span class="n">The</span> <span class="n">developed</span>
+
+   <span class="n">algorithm</span> <span class="n">can</span> <span class="n">be</span> <span class="n">computed</span> <span class="k">in</span> <span class="k">less</span> <span class="k">than</span> <span class="n">two</span> <span class="n">seconds</span><span class="p">,</span> <span class="n">making</span> <span class="nb">real</span><span class="o">-</span><span class="k">time</span> <span class="n">application</span> <span class="n">feasible</span><span class="p">.</span>
+
+   <span class="n">The</span> <span class="n">presented</span> <span class="k">system</span> <span class="k">is</span> <span class="n">able</span> <span class="k">to</span> <span class="n">determine</span> <span class="n">three</span> <span class="n">maternal</span> <span class="n">risk</span> <span class="n">factors</span> <span class="k">using</span> <span class="n">the</span> <span class="n">OSP</span><span class="p">.</span> <span class="n">The</span> <span class="n">OSP</span>
+
+   <span class="n">can</span> <span class="n">be</span> <span class="n">acquired</span> <span class="k">without</span> <span class="n">the</span> <span class="n">need</span> <span class="k">of</span> <span class="n">a</span> <span class="n">trained</span> <span class="n">sonographer</span><span class="p">,</span> <span class="n">which</span> <span class="n">makes</span> <span class="n">widespread</span> <span class="n">obstetric</span>
+
+   <span class="n">ultrasound</span> <span class="n">affordable</span> <span class="k">and</span> <span class="n">fast</span> <span class="k">to</span> <span class="n">implement</span> <span class="k">in</span> <span class="n">resource</span><span class="o">-</span><span class="n">limited</span> <span class="n">settings</span><span class="p">.</span> <span class="n">This</span> <span class="n">makes</span> <span class="k">is</span>
+
+   <span class="n">possible</span> <span class="k">to</span> <span class="n">refer</span> <span class="n">pregnant</span> <span class="n">women</span> <span class="k">in</span> <span class="k">time</span> <span class="k">to</span> <span class="n">a</span> <span class="n">hospital</span> <span class="k">to</span> <span class="n">receive</span> <span class="n">treatment</span> <span class="k">when</span> <span class="n">risk</span> <span class="n">factors</span>
+
+   <span class="k">are</span> <span class="n">detected</span><span class="p">.</span>
+</code></pre></div>
 
 
     </div>

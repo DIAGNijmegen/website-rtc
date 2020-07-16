@@ -43,10 +43,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/pate18/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/venh18/</loc>
     <priority>1.0</priority>
   </url>
@@ -96,10 +92,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/isgu04a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/rikx06a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -163,10 +155,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/scha15/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/gonz20b/</loc>
     <priority>1.0</priority>
   </url>
@@ -203,19 +191,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/arma08/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/arzh07b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn00b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn99/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -232,10 +208,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/venh15b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/grin16c/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -311,10 +283,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/meij20/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/slui05/</loc>
     <priority>1.0</priority>
   </url>
@@ -328,10 +296,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/niem08/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/heuv18b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -367,10 +331,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/rikx13/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/niem09e/</loc>
     <priority>1.0</priority>
   </url>
@@ -380,10 +340,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/grin13a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/lass15a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -431,14 +387,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn00/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/jaco15b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/niem03b/</loc>
     <priority>1.0</priority>
   </url>
@@ -452,10 +400,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/isgu04/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/niem06b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -615,14 +559,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn00a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn99a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/rikx10/</loc>
     <priority>1.0</priority>
   </url>
@@ -631,15 +567,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/dong10/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/rikx09c/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/rikx11d/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -696,10 +624,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/scha14h/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/loog06/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -947,10 +871,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/schi05/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/ginn06c/</loc>
     <priority>1.0</priority>
   </url>
@@ -980,10 +900,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/ginn08a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/seti18/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1051,10 +967,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/isgu03/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/hoes12/</loc>
     <priority>1.0</priority>
   </url>
@@ -1072,10 +984,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/litj16c/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/jaco19b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1107,10 +1015,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/slui02/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/mele12a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1136,10 +1040,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/meij17/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/murp11/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1403,10 +1303,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/jaco19/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/software/grand-challenge/</loc>
     <priority>1.0</priority>
   </url>
@@ -1440,10 +1336,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/arzh06/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn06a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1496,10 +1388,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/char16c/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/mele15/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1575,6 +1463,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/kock17a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/rikx10b/</loc>
     <priority>1.0</priority>
   </url>
@@ -1647,10 +1539,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/muen14a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/schi05b/</loc>
     <priority>1.0</priority>
   </url>
@@ -1687,10 +1575,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/hoop10b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/slui04/</loc>
     <priority>1.0</priority>
   </url>
@@ -1724,10 +1608,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/riel17/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/chun18a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1787,10 +1667,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn03b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/leem19/</loc>
     <priority>1.0</priority>
   </url>
@@ -1812,10 +1688,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/mend10/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/mend10b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1939,10 +1811,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn04/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/mele12/</loc>
     <priority>1.0</priority>
   </url>
@@ -2044,10 +1912,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/hoop12/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/estr19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2187,10 +2051,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/char17/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/rikx09d/</loc>
     <priority>1.0</priority>
   </url>
@@ -2203,19 +2063,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/staa04/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/meij16/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/niem07a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/loog06a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2248,10 +2100,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/members/silvan-quax/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/schi06/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2295,10 +2143,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/loog04d/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/pinc19a/</loc>
     <priority>1.0</priority>
   </url>
@@ -2327,10 +2171,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/loog04c/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/rikx08a/</loc>
     <priority>1.0</priority>
   </url>
@@ -2340,10 +2180,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/muen12a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/loog02a/</loc>
     <priority>1.0</priority>
   </url>
   <url>

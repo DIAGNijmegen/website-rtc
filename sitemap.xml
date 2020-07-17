@@ -1079,10 +1079,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn18/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/gree16/</loc>
     <priority>1.0</priority>
   </url>
@@ -1335,10 +1331,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ginn17/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/loog06b/</loc>
     <priority>1.0</priority>
   </url>
@@ -1572,6 +1564,10 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/ginn03a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/kock17a/</loc>
     <priority>1.0</priority>
   </url>
   <url>

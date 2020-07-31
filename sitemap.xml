@@ -251,6 +251,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/less20/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/isgu05a/</loc>
     <priority>1.0</priority>
   </url>
@@ -2012,6 +2016,22 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/mike-overkamp/all/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/mike-overkamp/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/miriam-groeneveld/all/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/miriam-groeneveld/</loc>
     <priority>1.0</priority>
   </url>
   <url>

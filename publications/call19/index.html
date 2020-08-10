@@ -242,26 +242,16 @@
 
     <h2>Abstract</h2>
     <p>In this work we analyze the eect of label noise in training and test data when performing classication experi-</p>
-<div class="highlight"><pre><span></span><code>   <span class="nt">ments</span> <span class="nt">on</span> <span class="nt">chest</span> <span class="nt">radiographs</span> <span class="o">(</span><span class="nt">CXRs</span><span class="o">)</span> <span class="nt">with</span> <span class="nt">modern</span> <span class="nt">deep</span> <span class="nt">learning</span> <span class="nt">architectures</span><span class="o">.</span> <span class="nt">We</span> <span class="nt">use</span> <span class="nt">ChestXRay14</span><span class="o">,</span> <span class="nt">the</span> <span class="nt">largest</span>
-
-   <span class="nt">publicly</span> <span class="nt">available</span> <span class="nt">CXR</span> <span class="nt">dataset</span><span class="o">.</span> <span class="nt">We</span> <span class="nt">simulate</span> <span class="nt">situs</span> <span class="nt">inversus</span> <span class="nt">by</span> <span class="nt">horizontal</span> <span class="nt">ipping</span> <span class="nt">of</span> <span class="nt">the</span> <span class="nt">CXRs</span><span class="o">,</span> <span class="nt">allowing</span> <span class="nt">us</span> <span class="nt">to</span>
-
-   <span class="nt">precisely</span> <span class="nt">control</span> <span class="nt">the</span> <span class="nt">amount</span> <span class="nt">of</span> <span class="nt">label</span> <span class="nt">noise</span><span class="o">.</span> <span class="nt">We</span> <span class="nt">also</span> <span class="nt">perform</span> <span class="nt">experiments</span> <span class="nt">in</span> <span class="nt">classifying</span> <span class="nt">emphysema</span> <span class="nt">using</span> <span class="nt">the</span>
-
-   <span class="nt">ChestXRay14</span> <span class="nt">provided</span> <span class="nt">labels</span> <span class="nt">that</span> <span class="nt">are</span> <span class="nt">known</span> <span class="nt">to</span> <span class="nt">be</span> <span class="nt">noisy</span><span class="o">.</span> <span class="nt">Our</span> <span class="nt">situs</span> <span class="nt">inversus</span> <span class="nt">experiments</span> <span class="nt">conrm</span> <span class="nt">results</span> <span class="nt">from</span>
-
-   <span class="nt">the</span> <span class="nt">computer</span> <span class="nt">vision</span> <span class="nt">literature</span> <span class="nt">that</span> <span class="nt">deep</span> <span class="nt">learning</span> <span class="nt">architectures</span> <span class="nt">are</span> <span class="nt">relatively</span> <span class="nt">robust</span> <span class="nt">but</span> <span class="nt">not</span> <span class="nt">completely</span> <span class="nt">insensi-</span>
-
-   <span class="nt">tive</span> <span class="nt">to</span> <span class="nt">label</span> <span class="nt">noise</span> <span class="nt">in</span> <span class="nt">the</span> <span class="nt">training</span> <span class="nt">data</span><span class="o">:</span> <span class="nt">without</span> <span class="nt">or</span> <span class="nt">with</span> <span class="nt">very</span> <span class="nt">low</span> <span class="nt">noise</span><span class="o">,</span> <span class="nt">classication</span> <span class="nt">results</span> <span class="nt">are</span> <span class="nt">near</span> <span class="nt">perfect</span><span class="o">;</span> <span class="nt">16</span><span class="o">%</span>
-
-   <span class="nt">and</span> <span class="nt">32</span><span class="o">%</span> <span class="nt">training</span> <span class="nt">label</span> <span class="nt">noise</span> <span class="nt">only</span> <span class="nt">lead</span> <span class="nt">to</span> <span class="nt">a</span> <span class="nt">1</span><span class="p">.</span><span class="nc">5</span><span class="o">%</span> <span class="nt">and</span> <span class="nt">4</span><span class="p">.</span><span class="nc">6</span><span class="o">%</span> <span class="nt">drop</span> <span class="nt">in</span> <span class="nt">accuracy</span><span class="o">.</span> <span class="nt">We</span> <span class="nt">investigate</span> <span class="nt">two</span> <span class="nt">metrics</span> <span class="nt">that</span>
-
-   <span class="nt">could</span> <span class="nt">be</span> <span class="nt">used</span> <span class="nt">to</span> <span class="nt">identify</span> <span class="nt">test</span> <span class="nt">samples</span> <span class="nt">that</span> <span class="nt">have</span> <span class="nt">an</span> <span class="nt">incorrect</span> <span class="nt">label</span><span class="o">:</span> <span class="nt">model</span> <span class="nt">condence</span> <span class="nt">and</span> <span class="nt">model</span> <span class="nt">uncertainty</span><span class="o">.</span> <span class="nt">We</span>
-
-   <span class="nt">show</span><span class="o">,</span> <span class="nt">in</span> <span class="nt">an</span> <span class="nt">observer</span> <span class="nt">study</span> <span class="nt">with</span> <span class="nt">an</span> <span class="nt">experienced</span> <span class="nt">chest</span> <span class="nt">radiologist</span><span class="o">,</span> <span class="nt">that</span> <span class="nt">both</span> <span class="nt">measures</span> <span class="nt">are</span> <span class="nt">eective</span> <span class="nt">in</span> <span class="nt">identifying</span>
-
-   <span class="nt">samples</span> <span class="nt">in</span> <span class="nt">ChestXRay14</span> <span class="nt">that</span> <span class="nt">are</span> <span class="nt">erroneously</span> <span class="nt">labeled</span> <span class="nt">for</span> <span class="nt">the</span> <span class="nt">presence</span> <span class="nt">of</span> <span class="nt">emphysema</span><span class="o">.</span>
-</code></pre></div>
+<p>ments on chest radiographs (CXRs) with modern deep learning architectures. We use ChestXRay14, the largest</p>
+<p>publicly available CXR dataset. We simulate situs inversus by horizontal ipping of the CXRs, allowing us to</p>
+<p>precisely control the amount of label noise. We also perform experiments in classifying emphysema using the</p>
+<p>ChestXRay14 provided labels that are known to be noisy. Our situs inversus experiments conrm results from</p>
+<p>the computer vision literature that deep learning architectures are relatively robust but not completely insensi-</p>
+<p>tive to label noise in the training data: without or with very low noise, classication results are near perfect; 16%</p>
+<p>and 32% training label noise only lead to a 1.5% and 4.6% drop in accuracy. We investigate two metrics that</p>
+<p>could be used to identify test samples that have an incorrect label: model condence and model uncertainty. We</p>
+<p>show, in an observer study with an experienced chest radiologist, that both measures are eective in identifying</p>
+<p>samples in ChestXRay14 that are erroneously labeled for the presence of emphysema.</p>
 
 
     </div>

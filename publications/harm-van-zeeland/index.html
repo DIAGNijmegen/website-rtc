@@ -232,36 +232,38 @@
     </nav>
 </div>
     <div class="container">
+    
     <h1>Publications of Harm van Zeeland </h1>
 
     <p class="my-4">
             <a href="https://rtc.diagnijmegen.nl/members/harm-van-zeeland">Back to page of Harm van Zeeland</a>
     </p>
 
-   
+
+
+
  
-            
-
-
+     
+        
 
 <div class="btn-group btn-group-toggle year-button-group" data-toggle="buttons">
-    <input type="radio" name="year-selection" data-year="all" id="input_all" autocomplete="off" style="display: none">
-    <label class="btn btn-link" for="input_all", style="color:grey">
-        all
-    </label>
-        <input type="radio" name="year-selection" data-year="2019" id="input_2019" autocomplete="off" style="display: none">
-        <label class="btn btn-link" for="input_2019", style="color:grey">
-            2019
-        </label>
-</div>
+        <a class="btn btn-link" style="color:grey; font-weight: bold" href="https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/">all</a>
     
-            <div data-year="2019" class="publication-year">
-                <h2>2019</h2>
+
+        <a class="btn btn-link" style="color:grey" href="https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/no-year-headings">all (no year headings)</a>
+
+
+            <a class="btn btn-link" style="color:grey" href="https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/2019">2019</a>
+        
+</div>
+
+    
+            <h2>2019</h2>
 <h3>Abstracts</h3>
-                                <ol>
-<li>B. Liefers, J. Colijn, C. González-Gonzalo, A. Vaidyanathan, H. van Zeeland, P. Mitchell, C. Klaver and C. Sánchez, "Prediction of areas at risk of developing geographic atrophy in color fundus images using deep learning",
+                            <ol>
+<li>C. González-Gonzalo, B. Liefers, A. Vaidyanathan, H. van Zeeland, C. Klaver and C. Sánchez, "Opening the "black box"? of deep learning in automated screening of eye diseases",
 <i>Association for Research in Vision and Ophthalmology, </i>2019.<small>
-        <a href=/publications/lief19a>Abstract</a>
+        <a href=/publications/gonz19a>Abstract</a>
 
 
 
@@ -273,50 +275,15 @@
 
 
     </small></li>				
-<li>C. González-Gonzalo, B. Liefers, A. Vaidyanathan, H. van Zeeland, C. Klaver and C. Sánchez, "Opening the "black box"? of deep learning in automated screening of eye diseases",
+<li>B. Liefers, J. Colijn, C. González-Gonzalo, A. Vaidyanathan, H. van Zeeland, P. Mitchell, C. Klaver and C. Sánchez, "Prediction of areas at risk of developing geographic atrophy in color fundus images using deep learning",
 <i>Association for Research in Vision and Ophthalmology, </i>2019.<small>
-        <a href=/publications/gonz19a>Abstract</a>
+        <a href=/publications/lief19a>Abstract</a>
 
 
 
     </small></li>				
-                        </ol>
-            </div>
+                    </ol>
         
-
-<script type="text/javascript">
-    var buttons = document.getElementsByName('year-selection');
-    var year_blocks = document.getElementsByClassName('publication-year');
-
-    for(var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', function(event) {
-        var year = this.dataset.year; 
-        var yearsplit = year.split(' ')
-        for(var b = 0; b < year_blocks.length; b++) {
-            if (year == 'all'){
-                year_blocks[b].style.display = 'block';
-            }
-            else{
-                if (yearsplit[yearsplit.length-1] == 'before'){
-                    if(year_blocks[b].dataset.year <= parseInt(yearsplit[0])) {
-                        year_blocks[b].style.display = 'block';
-                    } else {
-                        year_blocks[b].style.display = 'none';
-                    }
-        
-                } else {
-                    if(year_blocks[b].dataset.year == year) {
-                        year_blocks[b].style.display = 'block';
-                    } else {
-                        year_blocks[b].style.display = 'none';
-                    }
-                }
-            }
-        }
-    });
-    }
-    buttons[1].click()
-</script>
     </div>
     </main>
 

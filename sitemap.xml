@@ -23,7 +23,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2016/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/2016/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2016/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -31,11 +35,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/2016/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2016/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2016/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2017/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -51,14 +55,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2017/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2018/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2018/</loc>
     <priority>1.0</priority>
   </url>
@@ -71,7 +67,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/2019/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2018/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -79,7 +75,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2019/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/2019/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -91,6 +87,14 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2019/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/2020/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2020/</loc>
     <priority>1.0</priority>
   </url>
@@ -99,19 +103,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/2020/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/2020/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/miriam-groeneveld/2020/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2020/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2020/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/miriam-groeneveld/2020/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -131,7 +131,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/mike-overkamp/no-year-headings/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/no-year-headings/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -139,11 +139,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/no-year-headings/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/no-year-headings/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/no-year-headings/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/no-year-headings/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/mike-overkamp/no-year-headings/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -152,14 +160,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/no-year-headings/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/no-year-headings/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/no-year-headings/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -320,11 +320,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/2015/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2015/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2015/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/2015/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -332,15 +332,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2016/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/2016/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/2016/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2016/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -348,7 +344,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2016/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/2016/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2016/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2017/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/2017/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -364,22 +372,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2017/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/2017/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2018/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/2018/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2018/</loc>
     <priority>0.6</priority>
   </url>
@@ -392,7 +384,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/2019/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/2018/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/2018/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -400,11 +396,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2019/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/2019/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/2019/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/2019/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -416,7 +412,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/2020/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2019/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/2020/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -428,11 +428,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/2020/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/2020/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/2020/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2020/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -440,7 +440,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/sil-van-de-leemput/2020/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/2020/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -628,7 +628,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/mike-overkamp/no-year-headings/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/no-year-headings/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -636,11 +636,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/ajay-patel/no-year-headings/</loc>
+    <loc>https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/no-year-headings/</loc>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/paul-konstantin-gerke/no-year-headings/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/no-year-headings/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rtc.diagnijmegen.nl/publications/mike-overkamp/no-year-headings/</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -649,14 +657,6 @@
   </url>
   <url>
     <loc>https://rtc.diagnijmegen.nl/publications/bram-van-ginneken/no-year-headings/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/james-meakin/no-year-headings/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://rtc.diagnijmegen.nl/publications/harm-van-zeeland/no-year-headings/</loc>
     <priority>0.6</priority>
   </url>
   <url>
